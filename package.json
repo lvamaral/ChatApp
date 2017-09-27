@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "webpack --watch",
-    "start:dev": "nodemon app.js",
+    "start-dev": "nodemon app.js",
     "start:debug": "DEBUG=* node app.js"
   },
   "repository": {
@@ -28,6 +28,7 @@
   "dependencies": {
     "express": "^4.15.5",
     "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3",
     "webpack": "^3.6.0"
   },
   "devDependencies": {
